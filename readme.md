@@ -7,10 +7,9 @@ AimScan is a Web Pentesting Tool designed for educational purposes and academic 
 ## Functions
 - Scans for SSTI vulnerabilities using various payloads.
 - Scans for LFI vulnerabilities using common traversal sequences.
-- Provides detailed reports of vulnerabilities found.
-- Multi-threaded scanning for faster results.
+- Provides reports if thw guven domain vulnerable to SSTI or LFI or both.
 - Colorful CLI output for better visualization.
-- Logs the scan results for further analysis.
+- Logs the scan results for further analysis inti text files.
 
 ## Requirements
 - Python 3
@@ -46,11 +45,11 @@ python AimScan.py <target-url>
 Replace `<target-url>` with the URL of the website you want to scan.
 
 ## Output
-The tool generates detailed reports of SSTI and LFI vulnerabilities found during the scan. It also logs the scan results in separate files for further analysis.
+The tool generates reports of SSTI and LFI vulnerabilities found during the scan. It also logs the scan results in separate files for further analysis.
 
 ## Disclaimer
 AimScan is intended for educational purposes only. The authors are not responsible for any misuse or damage caused by this tool. Use it responsibly and only on websites you have permission to scan.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+
