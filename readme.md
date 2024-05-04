@@ -18,7 +18,7 @@ AimScan is a Web Pentesting Tool designed for educational purposes and academic 
 - beautifulsoup4
 - pyfiglet
 
-Install the required packages using `pip install -r requirements.txt`.
+Install the required packages using `pip3 install -r requirements.txt`.
 
 ## Installation Commands
 Clone the repository:
@@ -33,13 +33,13 @@ cd AimScan
 
 Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 Run the AimScan tool using the following command:
 ```bash
-python AimScan.py <target-url>
+python3 AimScan.py <target-url>
 ```
 
 Replace `<target-url>` with the URL of the website you want to scan.
